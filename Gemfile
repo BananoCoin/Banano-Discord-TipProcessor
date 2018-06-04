@@ -3,3 +3,4 @@ ruby "2.5.0"
 
 gem "sidekiq"
 gem "puma"
+gem "nano_rpc"
