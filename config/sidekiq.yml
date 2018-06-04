@@ -1,0 +1,5 @@
+---
+:concurrency: <%= ENV.fetch('SIDEKIQ_THREADS', 5).to_i %>
+:queues:
+  - [send, 1]
+  - [receive, 1]

@@ -1,0 +1,4 @@
+.env
+
+# Ignore rvm/rbenv conf file
+/.ruby*

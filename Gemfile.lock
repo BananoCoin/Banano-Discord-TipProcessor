@@ -1,0 +1,28 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    concurrent-ruby (1.0.5)
+    connection_pool (2.2.2)
+    puma (3.11.4)
+    rack (2.0.5)
+    rack-protection (2.0.1)
+      rack
+    redis (4.0.1)
+    sidekiq (5.1.3)
+      concurrent-ruby (~> 1.0)
+      connection_pool (~> 2.2, >= 2.2.0)
+      rack-protection (>= 1.5.0)
+      redis (>= 3.3.5, < 5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  puma
+  sidekiq
+
+RUBY VERSION
+   ruby 2.5.0p0
+
+BUNDLED WITH
+   1.16.1
